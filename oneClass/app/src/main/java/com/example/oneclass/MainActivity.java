@@ -3,7 +3,10 @@ package com.example.oneclass;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +15,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-private Button btnHome;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,12 +26,26 @@ private Button btnHome;
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        btnHome=findViewById(R.id.btnHome);
-        btnHome.setOnClickListener(new View.OnClickListener() {
+        Animation zoomIn= AnimationUtils.loadAnimation(this,R.anim.zoom_in);
+        ImageView splash=findViewById(R.id.splash);
+
+        splash.setAnimation(zoomIn);
+        zoomIn.setAnimationListener(new Animation.AnimationListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(), Home.class);
-                startActivity(intent);
+            public void onAnimationStart(Animation animation) {
+
+            }
+
+            @Override
+            public void onAnimationEnd(Animation animation) {
+Intent intent=new Intent(getApplicationContext(), Home.class);
+startActivity(intent);
+finish();
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+
             }
         });
     }
