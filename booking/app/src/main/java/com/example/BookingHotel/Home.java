@@ -1,11 +1,9 @@
-package com.example.oneclass;
+package com.example.BookingHotel;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
@@ -14,19 +12,20 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class Home extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_home);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        Animation zoomIn= AnimationUtils.loadAnimation(this,R.anim.zoom_in);
+
+        Animation  zoomIn= AnimationUtils.loadAnimation(this,R.anim.zoom_in);
         ImageView splash=findViewById(R.id.splash);
 
         splash.setAnimation(zoomIn);
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-            Intent intent=new Intent(getApplicationContext(), Home.class);
+                Intent intent=new Intent(getApplicationContext(), Home.class);
                 startActivity(intent);
                 finish();
             }
