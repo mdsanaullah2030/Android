@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "371847979101",
+    "project_id": "fir-connection-ec450",
+    "storage_bucket": "fir-connection-ec450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371847979101:android:8c9e0821fb520fd452adb4",
+        "android_client_info": {
+          "package_name": "com.example.firebaseconnection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsn5kjkN-rHP7e3Pg2YAVu8x_gqWwdFnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
