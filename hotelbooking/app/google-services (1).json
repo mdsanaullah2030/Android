@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "456339595313",
+    "firebase_url": "https://hotelbooking-cbb1d-default-rtdb.firebaseio.com",
+    "project_id": "hotelbooking-cbb1d",
+    "storage_bucket": "hotelbooking-cbb1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456339595313:android:a42f555ef95e81fb273510",
+        "android_client_info": {
+          "package_name": "com.example.hotelbooking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQnk5C_fJfJo4gvw1aMj3GPLDAVCSvR-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
