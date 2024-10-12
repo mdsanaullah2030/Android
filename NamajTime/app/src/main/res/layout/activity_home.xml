@@ -62,65 +62,16 @@
 
 
             </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
 
+</LinearLayout>
 
-            <Button
-                android:id="@+id/btnBdnews"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:text="BD News 24"
-                android:textSize="@dimen/_15ssp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/btnDhaka"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:text="Dhaka Tribune"
-                android:textSize="@dimen/_15ssp"
-                android:textStyle="bold" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:text="ডয়চে ভেলে - DW"
-                android:textSize="@dimen/_15ssp"
-                android:textStyle="bold" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:text="The Business Standard"
-                android:textSize="@dimen/_15ssp"
-                android:textStyle="bold" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:text="Bonik Barta"
-                android:textSize="@dimen/_15ssp"
-                android:textStyle="bold" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:text="The Financial Express"
-                android:textSize="@dimen/_15ssp"
-                android:textStyle="bold" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:text="যায় যায় দিন"
-                android:textSize="@dimen/_15ssp"
-                android:textStyle="bold" />
 
 
         </LinearLayout>

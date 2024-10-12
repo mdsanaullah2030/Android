@@ -14,6 +14,8 @@ import androidx.core.view.WindowInsetsCompat;
 public class home extends AppCompatActivity {
 private Button btnBdnews;
 private Button btnDhaka;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

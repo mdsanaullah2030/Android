@@ -9,14 +9,24 @@
 
 
     <TextView
-        android:id="@+id/heding"
+        android:id="@+id/heding2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Dhaka Tribune"
-        android:textColor="@drawable/home_top1"
-        android:textSize="@dimen/_25ssp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold"
+        android:text="BD News 24"
+        android:textSize="@dimen/_18ssp"
+        />
+
+
+    <WebView
+        android:id="@+id/bdnews24"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/heding2"
+        android:padding="@dimen/_5sdp"
+        />
 
 
     <WebView
@@ -24,7 +34,7 @@
         android:layout_marginTop="@dimen/_10sdp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/heding"
+
         android:padding="@dimen/_5sdp"
         />
 
