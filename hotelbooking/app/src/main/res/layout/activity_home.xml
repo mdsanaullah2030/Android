@@ -21,7 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_150sdp"
                 android:layout_margin="@dimen/_5sdp"
-                android:background=""
+                android:background="@drawable/dispaly"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -34,31 +34,13 @@
 
                         android:layout_width="@dimen/_60sdp"
                         android:layout_height="@dimen/_60sdp"
-                        android:layout_margin="@dimen/_2sdp"
-                        android:src="" />
+                        android:layout_margin="@dimen/_2sdp"/>
+
 
 
                 </LinearLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Welcome"
-                    android:textSize="@dimen/_18ssp"
-                    android:textStyle="bold|italic"
 
-                    />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Daily News"
-                    android:textSize="@dimen/_18ssp"
-                    android:textStyle="bold|italic"
-
-                    />
 
 
             </LinearLayout>
