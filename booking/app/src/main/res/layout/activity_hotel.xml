@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".hotel">
+    tools:context="com.example.booking.hotel">
 
     <!-- Corrected ScrollView tag -->
     <ScrollView
@@ -85,6 +85,24 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnSayeman"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:text="Room View "
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+
+
+
+            </LinearLayout>
+
             <!-- Hotel details card 2 (similar structure as above) -->
             <LinearLayout
                 android:layout_width="match_parent"
@@ -151,7 +169,36 @@
                     android:text="5 Star"
                     android:textSize="@dimen/_15sdp"
                     android:textStyle="bold" />
+
+
+
+
             </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:text="Room View  "
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+
+
+
+            </LinearLayout>
+
+
+
+
 
 
 
@@ -220,6 +267,22 @@
                     android:text="5 Star"
                     android:textSize="@dimen/_15sdp"
                     android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:text="Room View  "
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+
+
+
             </LinearLayout>
 
         </LinearLayout>
